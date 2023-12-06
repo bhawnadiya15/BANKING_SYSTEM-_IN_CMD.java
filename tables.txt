@@ -1,0 +1,43 @@
+CREATE DATABASE IF NOT EXISTS Banking_system;
+USE Banking_system;
+
+CREATE TABLE saving_account (
+    accno VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(50),
+    Mpin VARCHAR(4),
+    password VARCHAR(16),
+    balance BIGINT,
+    interestRate DOUBLE,
+    securityQuestion VARCHAR(100),
+    securityAnswer VARCHAR(100)
+);
+
+
+
+select*from saving_account;
+select*from current_account;
+select*from loan_account;
+CREATE TABLE current_account (
+    accno VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(50),
+    Mpin VARCHAR(4),
+    password VARCHAR(16),
+    balance BIGINT,
+    overdraftLimit DOUBLE,
+    securityQuestion VARCHAR(100),
+    securityAnswer VARCHAR(100)
+);
+CREATE TABLE loan_account (
+    accno VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(50),
+    Mpin VARCHAR(4),
+    password VARCHAR(16),
+    balance BIGINT,
+    loanAmount BIGINT,
+    interestRate DOUBLE,
+    timeperiod INT,
+    securityQuestion VARCHAR(100),
+    securityAnswer VARCHAR(100)
+);
+
+
