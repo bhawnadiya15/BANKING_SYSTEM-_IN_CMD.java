@@ -18,3 +18,21 @@ This Java-based banking system project offers real-time operations, resembling f
 - Transaction.java - Intialization of class , TransactionHistory
 - Utils.java - writeSavings, WriteCurrent, WriteLoan
 - Displayable.java - Interface Displayble
+
+
+#MENU DRIVEN
+                                                             Welcome to the Banking System!
+                                                             Are you an existing user? (yes/no)
+                                                             
+                                                            *Banking System Application *
+                                                               1.Display account details
+                                                               2. Deposit the amount
+                                                               3. Withdraw the amount
+                                                               4. Change MPIN
+                                                               5. Pay Loan Installment
+                                                               6. Account Transfer
+                                                               7. Transaction History
+                                                               8. Close Account
+                                                               9. Customer Support
+                                                               10. Exit
+
